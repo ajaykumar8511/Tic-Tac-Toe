@@ -30,5 +30,5 @@
 This Project  is about **Tic Tac Toe Game** . Play with Friends. 
 
 <p align="center">
-    <img src="img\TicTacToe.png" alt="Game" width="500px" >
+    <img src="img\TicTacToe.PNG" alt="Game" width="500px" >
 </p>
