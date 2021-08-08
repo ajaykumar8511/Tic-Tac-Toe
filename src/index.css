@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #272727;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 5rem;
+}
+
+
+
+.board {
+  background: #ffffff;
+  width: 500px;
+  height: 500px;
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+  gap: 1rem;
+  margin-right: 5rem;
+}
+
+.squares {
+  background: #272727;
+  border: none;
+  font-size: 5rem;
+  cursor: pointer;
+  outline: none;
+  
+}
+
+.X {
+  color: #00f7ff;
+}
+.O {
+  color: #e62838;
+}
+
+.info-wrapper {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Open Sans', sans-serif;
+}
+.body-wrapper {
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+h3 {
+  padding: 1rem;
+}
+
+li {
+  list-style: none;
+}
+
+.info-wrapper button {
+  background: #dbdbdb;
+  color: #272727;
+  border-radius: 18px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 0.5rem;
+  margin: 0.5rem 1rem;
+}
+.info-wrapper button:hover{
+  background:   #706ebb;
+  color: #ffffff;
+}
+
